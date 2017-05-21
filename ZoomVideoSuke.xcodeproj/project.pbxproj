@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D27B3801ED23B760078794C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B37F1ED23B760078794C /* AppDelegate.swift */; };
+		3D27B3821ED23B760078794C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B3811ED23B760078794C /* ViewController.swift */; };
+		3D27B3851ED23B760078794C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3831ED23B760078794C /* Main.storyboard */; };
+		3D27B3871ED23B760078794C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3861ED23B760078794C /* Assets.xcassets */; };
+		3D27B38A1ED23B760078794C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3881ED23B760078794C /* LaunchScreen.storyboard */; };
+		3D27B3951ED23B760078794C /* ZoomVideoSukeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B3941ED23B760078794C /* ZoomVideoSukeTests.swift */; };
+		3D27B3A01ED23B760078794C /* ZoomVideoSukeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B39F1ED23B760078794C /* ZoomVideoSukeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D27B3911ED23B760078794C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D27B3741ED23B760078794C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D27B37B1ED23B760078794C;
+			remoteInfo = ZoomVideoSuke;
+		};
+		3D27B39C1ED23B760078794C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D27B3741ED23B760078794C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D27B37B1ED23B760078794C;
+			remoteInfo = ZoomVideoSuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D27B37C1ED23B760078794C /* ZoomVideoSuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomVideoSuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D27B37F1ED23B760078794C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D27B3811ED23B760078794C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D27B3841ED23B760078794C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D27B3861ED23B760078794C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D27B3891ED23B760078794C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D27B38B1ED23B760078794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D27B3901ED23B760078794C /* ZoomVideoSukeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomVideoSukeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D27B3941ED23B760078794C /* ZoomVideoSukeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomVideoSukeTests.swift; sourceTree = "<group>"; };
+		3D27B3961ED23B760078794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D27B39B1ED23B760078794C /* ZoomVideoSukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomVideoSukeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D27B39F1ED23B760078794C /* ZoomVideoSukeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomVideoSukeUITests.swift; sourceTree = "<group>"; };
+		3D27B3A11ED23B760078794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D27B3791ED23B760078794C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B38D1ED23B760078794C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B3981ED23B760078794C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D27B3731ED23B760078794C = {
+			isa = PBXGroup;
+			children = (
+				3D27B37E1ED23B760078794C /* ZoomVideoSuke */,
+				3D27B3931ED23B760078794C /* ZoomVideoSukeTests */,
+				3D27B39E1ED23B760078794C /* ZoomVideoSukeUITests */,
+				3D27B37D1ED23B760078794C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D27B37D1ED23B760078794C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D27B37C1ED23B760078794C /* ZoomVideoSuke.app */,
+				3D27B3901ED23B760078794C /* ZoomVideoSukeTests.xctest */,
+				3D27B39B1ED23B760078794C /* ZoomVideoSukeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D27B37E1ED23B760078794C /* ZoomVideoSuke */ = {
+			isa = PBXGroup;
+			children = (
+				3D27B37F1ED23B760078794C /* AppDelegate.swift */,
+				3D27B3811ED23B760078794C /* ViewController.swift */,
+				3D27B3831ED23B760078794C /* Main.storyboard */,
+				3D27B3861ED23B760078794C /* Assets.xcassets */,
+				3D27B3881ED23B760078794C /* LaunchScreen.storyboard */,
+				3D27B38B1ED23B760078794C /* Info.plist */,
+			);
+			path = ZoomVideoSuke;
+			sourceTree = "<group>";
+		};
+		3D27B3931ED23B760078794C /* ZoomVideoSukeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D27B3941ED23B760078794C /* ZoomVideoSukeTests.swift */,
+				3D27B3961ED23B760078794C /* Info.plist */,
+			);
+			path = ZoomVideoSukeTests;
+			sourceTree = "<group>";
+		};
+		3D27B39E1ED23B760078794C /* ZoomVideoSukeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D27B39F1ED23B760078794C /* ZoomVideoSukeUITests.swift */,
+				3D27B3A11ED23B760078794C /* Info.plist */,
+			);
+			path = ZoomVideoSukeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D27B37B1ED23B760078794C /* ZoomVideoSuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D27B3A41ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSuke" */;
+			buildPhases = (
+				3D27B3781ED23B760078794C /* Sources */,
+				3D27B3791ED23B760078794C /* Frameworks */,
+				3D27B37A1ED23B760078794C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomVideoSuke;
+			productName = ZoomVideoSuke;
+			productReference = 3D27B37C1ED23B760078794C /* ZoomVideoSuke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D27B38F1ED23B760078794C /* ZoomVideoSukeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D27B3A71ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSukeTests" */;
+			buildPhases = (
+				3D27B38C1ED23B760078794C /* Sources */,
+				3D27B38D1ED23B760078794C /* Frameworks */,
+				3D27B38E1ED23B760078794C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D27B3921ED23B760078794C /* PBXTargetDependency */,
+			);
+			name = ZoomVideoSukeTests;
+			productName = ZoomVideoSukeTests;
+			productReference = 3D27B3901ED23B760078794C /* ZoomVideoSukeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D27B39A1ED23B760078794C /* ZoomVideoSukeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D27B3AA1ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSukeUITests" */;
+			buildPhases = (
+				3D27B3971ED23B760078794C /* Sources */,
+				3D27B3981ED23B760078794C /* Frameworks */,
+				3D27B3991ED23B760078794C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D27B39D1ED23B760078794C /* PBXTargetDependency */,
+			);
+			name = ZoomVideoSukeUITests;
+			productName = ZoomVideoSukeUITests;
+			productReference = 3D27B39B1ED23B760078794C /* ZoomVideoSukeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D27B3741ED23B760078794C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Suke Hozumi";
+				TargetAttributes = {
+					3D27B37B1ED23B760078794C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					3D27B38F1ED23B760078794C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D27B37B1ED23B760078794C;
+					};
+					3D27B39A1ED23B760078794C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D27B37B1ED23B760078794C;
+					};
+				};
+			};
+			buildConfigurationList = 3D27B3771ED23B760078794C /* Build configuration list for PBXProject "ZoomVideoSuke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D27B3731ED23B760078794C;
+			productRefGroup = 3D27B37D1ED23B760078794C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D27B37B1ED23B760078794C /* ZoomVideoSuke */,
+				3D27B38F1ED23B760078794C /* ZoomVideoSukeTests */,
+				3D27B39A1ED23B760078794C /* ZoomVideoSukeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D27B37A1ED23B760078794C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D27B38A1ED23B760078794C /* LaunchScreen.storyboard in Resources */,
+				3D27B3871ED23B760078794C /* Assets.xcassets in Resources */,
+				3D27B3851ED23B760078794C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B38E1ED23B760078794C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B3991ED23B760078794C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D27B3781ED23B760078794C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D27B3821ED23B760078794C /* ViewController.swift in Sources */,
+				3D27B3801ED23B760078794C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B38C1ED23B760078794C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D27B3951ED23B760078794C /* ZoomVideoSukeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D27B3971ED23B760078794C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D27B3A01ED23B760078794C /* ZoomVideoSukeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D27B3921ED23B760078794C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D27B37B1ED23B760078794C /* ZoomVideoSuke */;
+			targetProxy = 3D27B3911ED23B760078794C /* PBXContainerItemProxy */;
+		};
+		3D27B39D1ED23B760078794C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D27B37B1ED23B760078794C /* ZoomVideoSuke */;
+			targetProxy = 3D27B39C1ED23B760078794C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D27B3831ED23B760078794C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D27B3841ED23B760078794C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D27B3881ED23B760078794C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D27B3891ED23B760078794C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D27B3A21ED23B760078794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D27B3A31ED23B760078794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D27B3A51ED23B760078794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomVideoSuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D27B3A61ED23B760078794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZoomVideoSuke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSuke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3D27B3A81ED23B760078794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoomVideoSukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomVideoSuke.app/ZoomVideoSuke";
+			};
+			name = Debug;
+		};
+		3D27B3A91ED23B760078794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZoomVideoSukeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSukeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomVideoSuke.app/ZoomVideoSuke";
+			};
+			name = Release;
+		};
+		3D27B3AB1ED23B760078794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZoomVideoSukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZoomVideoSuke;
+			};
+			name = Debug;
+		};
+		3D27B3AC1ED23B760078794C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZoomVideoSukeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSukeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZoomVideoSuke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D27B3771ED23B760078794C /* Build configuration list for PBXProject "ZoomVideoSuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D27B3A21ED23B760078794C /* Debug */,
+				3D27B3A31ED23B760078794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D27B3A41ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D27B3A51ED23B760078794C /* Debug */,
+				3D27B3A61ED23B760078794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D27B3A71ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSukeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D27B3A81ED23B760078794C /* Debug */,
+				3D27B3A91ED23B760078794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D27B3AA1ED23B760078794C /* Build configuration list for PBXNativeTarget "ZoomVideoSukeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D27B3AB1ED23B760078794C /* Debug */,
+				3D27B3AC1ED23B760078794C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D27B3741ED23B760078794C /* Project object */;
+}
