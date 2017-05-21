@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D27B3801ED23B760078794C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B37F1ED23B760078794C /* AppDelegate.swift */; };
-		3D27B3821ED23B760078794C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B3811ED23B760078794C /* ViewController.swift */; };
 		3D27B3851ED23B760078794C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3831ED23B760078794C /* Main.storyboard */; };
 		3D27B3871ED23B760078794C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3861ED23B760078794C /* Assets.xcassets */; };
 		3D27B38A1ED23B760078794C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D27B3881ED23B760078794C /* LaunchScreen.storyboard */; };
 		3D27B3951ED23B760078794C /* ZoomVideoSukeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B3941ED23B760078794C /* ZoomVideoSukeTests.swift */; };
 		3D27B3A01ED23B760078794C /* ZoomVideoSukeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B39F1ED23B760078794C /* ZoomVideoSukeUITests.swift */; };
+		3D27B3AE1ED241AA0078794C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27B3AD1ED241AA0078794C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3D27B37C1ED23B760078794C /* ZoomVideoSuke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomVideoSuke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D27B37F1ED23B760078794C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D27B3811ED23B760078794C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D27B3841ED23B760078794C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D27B3861ED23B760078794C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D27B3891ED23B760078794C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3D27B39B1ED23B760078794C /* ZoomVideoSukeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomVideoSukeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D27B39F1ED23B760078794C /* ZoomVideoSukeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomVideoSukeUITests.swift; sourceTree = "<group>"; };
 		3D27B3A11ED23B760078794C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D27B3AD1ED241AA0078794C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3D27B37F1ED23B760078794C /* AppDelegate.swift */,
-				3D27B3811ED23B760078794C /* ViewController.swift */,
 				3D27B3831ED23B760078794C /* Main.storyboard */,
 				3D27B3861ED23B760078794C /* Assets.xcassets */,
 				3D27B3881ED23B760078794C /* LaunchScreen.storyboard */,
 				3D27B38B1ED23B760078794C /* Info.plist */,
+				3D27B3AD1ED241AA0078794C /* MainViewController.swift */,
 			);
 			path = ZoomVideoSuke;
 			sourceTree = "<group>";
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					3D27B37B1ED23B760078794C = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZKPYBX98NE;
 						ProvisioningStyle = Automatic;
 					};
 					3D27B38F1ED23B760078794C = {
@@ -259,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D27B3821ED23B760078794C /* ViewController.swift in Sources */,
 				3D27B3801ED23B760078794C /* AppDelegate.swift in Sources */,
+				3D27B3AE1ED241AA0078794C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKPYBX98NE;
 				INFOPLIST_FILE = ZoomVideoSuke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSuke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZKPYBX98NE;
 				INFOPLIST_FILE = ZoomVideoSuke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Suke.ZoomVideoSuke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
